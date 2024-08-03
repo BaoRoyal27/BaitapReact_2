@@ -1,0 +1,56 @@
+
+.wallet-app {
+    background: #21252b;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wallet-app .actions{
+    gap: 10px;
+    justify-content: center;
+}
+.transaction-history .table-responsive{
+    max-height: 250px;
+    overflow-y: auto;
+}
+.transaction-history table{
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0;
+    td{
+        border-bottom: 1px solid #222;
+    }
+}
+.deposit td{
+    background-color: #d1e7de;
+}
+.withdraw td{
+    background-color: #f7d7d9;
+}
+.btn-success{
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+}
+.btn-danger{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+input.error{
+    border: 1px solid red;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
